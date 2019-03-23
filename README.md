@@ -18,9 +18,9 @@
     ![magicleap_opencv_settings.png](magicleap_opencv_settings.png)
     * Enclose the code related to the WebCamTexture class with #if UNITY_EDITOR and #endif. ( The WebCamTexture class is not included in the MagicLeap API, so an error occurs at build time. )
     ![enclose_utils.png](enclose_utils.png)
-    Assets/OpenCVForUnity/org/opencv/unity/Utils.cs
+    Assets/OpenCVForUnity/org/opencv/unity/Utils.cs (L496 - L620)
     ![enclose_webcamtexturetomathelper.png](enclose_webcamtexturetomathelper.png)
-    Assets/OpenCVForUnity/org/opencv/unity/helper/WebCamTextureToMatHelper.cs
+    Assets/OpenCVForUnity/org/opencv/unity/helper/WebCamTextureToMatHelper.cs (L1 - L939)
     * Delete "Assets/OpenCVForUnity/Examples" folders.
     ![delete_opencv_examples.png](delete_opencv_examples.png)
 1. Import the DlibFaceLandmarkDetector.
