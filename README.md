@@ -17,10 +17,8 @@
     * Setup the OpenCVForUnity. (Tools > OpenCV for Unity > Set Plugin Import Settings)
 1. Import the DlibFaceLandmarkDetector.
     * Setup the DlibFaceLandmarkDetector. (Tools > Dlib FaceLandmarkDetector > Set Plugin Import Settings)
-    * Import "Assets/DlibFaceLandmarkDetector/DlibFaceLandmarkDetectorWithOpenCVExample.unitypackage".
     * Move the "DlibFaceLandmarkDetector/StreamingAssets/" folder to the "Assets/" folder.
 1. Import the CVVTuberExample and Setup the UnityChanCVVTuberExample.
-1. Import the MagicLeapWithOpenCVForUnityExample.unitypackage.
 1. Import the MagicLeapWithDlibFaceLandmarkDetectorExample.unitypackage.
    ![setup.PNG](setup.PNG)
 1. Add the "Assets/MagicLeapWithDlibFaceLandmarkDetectorExample/*.unity" files to the "Scenes In Build" list in the "Build Settings" window.
@@ -33,4 +31,3 @@
 ![magicleap_dlib.jpg](magicleap_dlib.jpg) 
 ![arhead.PNG](arhead.PNG) 
 ![cvvtuber.PNG](cvvtuber.PNG) 
-In the current code, the overlap between the holographic object and the actual object is not accurate. The holographic object is shifted to the right for some reason. Pull requests are always welcome.
